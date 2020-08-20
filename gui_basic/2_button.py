@@ -18,9 +18,13 @@ btn4.pack()
 btn5 = Button(root, fg="red", bg="yellow", text="Button5")
 btn5.pack()
 
+def btncmd():
+    print("I love Jisoo!")
+
 photo = PhotoImage(file="gui_basic/bp_jisoo.png")
-btn6 = Button(root, image=photo)
+btn6 = Button(root, image=photo, command=btncmd)
 btn6.pack()
+
 
 
 root.mainloop()
