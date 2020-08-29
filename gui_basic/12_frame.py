@@ -24,4 +24,3 @@ Button(frame_drink, text= "Vegiburger").pack()
 
 
 root.mainloop()
- 
